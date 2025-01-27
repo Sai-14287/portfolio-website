@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel= "stylesheet" href ="styles.css">
+    <script src="https://kit.fontawesome.com/d00c2f8c7c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#mywork">work</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p> MECHANICAL ENGINEER</p>
+            <h1> Hi, I'm <span>Sai Manikanta </span> <br>I am a Full Stack Developer </h1>
+        </div>
+    </div>
+    </div>
+   <!-------------------------------------------------about---------------------------------------------------------->
+    <div id="about">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/WhatsApp Image 2025-01-27 at 18.25.47_7e8ed8f3.jpg">
+        </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I'm Sai Manikanta,a skilled software developer who completed full stack web development and is passionate about my work. I'm ready to collaborate with others to make a positive impact on the world using technology.I want to be different from others and constantly strives to learn and grow, and a natural communicator and collaborator. I'm dedicated to making valuable contributions to the field of technology.</p>
+                 
+                <div class="tab-titles">
+
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('strengths')">Strengths</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span> Programming Languages</span><br>Python, OOP in Python</li>
+                    <li><span> Web Technologies </span><br> HTML, CSS,JAVA SCRIPT, BOOTSTRAP </li>
+                    <li><span> Database Management </span><br> SQL/MySQL </li>
+                    <li><span> Frameworks </span><br> Django </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span> 2020 - 2024</span><br>Kick started my graduation at Kakatiya University College Of Engineering and Technology, Warangal.</li>
+                    <li><span> 2018 - 2020</span><br>Completed my Intermediate from Sri Chaitanya Junior College, khammam.</li>
+                    <li><span> 2018 </span><br>SSC from Narayana Best Foundation School, Madhira.</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="strengths">
+                <ul>
+                    <li><span> My Strengths</span><br> Strong analytical abilities <br> Problem solving skills using logical approaches <br> Time management skills <br> Self Motivated</li>
+                  </ul>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------services------------------------------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Developing websites </h2>
+                    <p> By using advanced frameworkslike Django  and scripting languages like HTML, JS, CSS, React.js etc I can develop web pages and websites</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-uncharted"></i>
+                    <h2> software Design </h2>
+                    <p> By using PYTHON and Machine Learning developing softwares </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2> App Design </h2>
+                    <p> Designing applications using various advanced technologies </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------portfolio----------------------------------------->
+    <div id="mywork">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <div class="image"> 
+                    <img src="images/original.jpg">
+                </div>
+                    <div class="layer">
+                        <h3> Parking Management </h3>
+                        <p>This is a parking management project we can determine the parking status of user by Binary Values</p>
+                        <a href="https://github.com/hruthikgundla/Symptoms-based-disease-detection"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3> LIVE EVENT DETECTION FOR PEOPLE SAFETY </h3>
+                        <p>Detects real-time events to ensure people's safety using NLP and deep learning. Analyzes data from sources like social media, news, and surveillance systems.</p>
+                        <a href="https://github.com/hruthikgundla/Stress-Detection-Using-ML"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3> Developed My Personal Portfolio Website </h3>
+                        <p> Using HTML, CSS, JS, BOOTSTRAP </p>
+                        <a href="https://github.com/hruthikgundla"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+
+        </div>
+    </div>
+    <!-----------------------------contact---------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>saimanikanta0528@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9100722375</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Sai-14287"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/adimulam-sai-manikanta"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/sai__028?igsh=MXZ6ZHkxbHdpbWR5MQ=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="https://github.com/hruthikgundla/hruthikgundla.github.io/blob/main/HRUTHIK%20M%20RESUME%20.pdf" download class="btn btn2"> Hire Me</a>
+                
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+        
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz1W4hHUlNZzwWb0KjwO1AIMmqorapbzY5g9FTi76Bd8V3DC2mgNSvi_1OUt2vc9_ZhCA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
